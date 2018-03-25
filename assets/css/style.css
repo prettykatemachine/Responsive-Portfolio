@@ -217,48 +217,21 @@ body {
     background: #4aaaa5;
     border: 0 hotpink;
   }
-  
-  @media screen and (max-width: 768px){
-   
 
-    #masthead {
-        margin:0 auto;
-        overflow: hidden;
-         
+@media screen and (max-width: 1060px) {
+  #primary {
+     width:67%; 
     }
+  #secondary { 
+    width:30%; margin-left:3%;
+  }  
+}
 
-    #main-container {
-        margin:0 auto;
-        width:90%;
-        
-    }
-
-    .work {
-        margin-left:0;
-        margin-right:0;
-    }
-
-    #logo{
-        margin-left:20px;  
-
-    }
-
-    .auth-image{
-      width: 85%;
-      float: none;
-       
-       
-        
-    }
-
-     p{
-        margin-right:0px;
-        margin-left:0px;
-        padding:15px;
-        text-indent:35px;
-        line-height:30px;
-     }
-         
-
-
+@media screen and (max-width: 768px) {
+  #primary { 
+    width:100%; 
+  }
+  #secondary { 
+    width:100%; margin:0; border:none; 
+  }
 }
